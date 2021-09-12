@@ -5677,7 +5677,7 @@ textarea.form-control.is-invalid {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: #f1f1f1;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -32514,7 +32514,7 @@ button.hamburger.animate.active:after {
 }
 
 .progress-wrap svg.progress-circle path {
-  stroke: #3f78e0;
+  stroke: #fab758;
   stroke-width: 4;
   box-sizing: border-box;
   transition: all 200ms linear;
@@ -37591,6 +37591,7 @@ button.hamburger.animate.active:after {
 html,
 body {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
