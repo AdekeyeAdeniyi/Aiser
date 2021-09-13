@@ -9820,7 +9820,7 @@ textarea.form-control.is-invalid {
 }
 
 .bg-dark {
-  background-color: #262b32 !important;
+  background-color: #0C4970 !important;
 }
 
 .bg-primary {
@@ -24673,7 +24673,7 @@ figure img {
 
 .wrapper.bg-dark.angled.lower-start:after,
 .wrapper.bg-dark.angled.upper-start:before {
-  border-left-color: #262b32;
+  border-left-color: #0C4970;
 }
 
 .wrapper.bg-dark.angled.lower-end:after,
@@ -31209,6 +31209,10 @@ fieldset:disabled .btn.btn-circle {
 .navbar {
   width: 100%;
   z-index: 1020;
+}
+
+.navbar .logo{
+  width: 40%
 }
 
 .navbar.transparent .logo-dark {
@@ -39318,4 +39322,8 @@ footer.bg-dark.angled.upper-start:before {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.clients-logo{
+  filter: grayscale(100%);
 }

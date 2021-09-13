@@ -16,16 +16,16 @@
     <header class="wrapper bg-dark">
         <nav class="navbar center-nav transparent navbar-expand-lg navbar-dark">
           <div class="container flex-lg-row flex-nowrap align-items-center">
-            <div class="navbar-brand w-100"><a href="index.html"><img src="img/logo-dark.png" srcset="img/logo-dark.png" class="logo-dark" alt="Logo" /><img src="img/logo-light.png" srcset="img/logo-light.png" class="logo-light" alt="Logo" /></a></div>
+            <div class="navbar-brand w-100"><a href="index.html"><img src="img/logo-dark.png" srcset="img/logo-dark.png" class="logo logo-dark" alt="Logo" /><img src="img/logo-light.png" srcset="img/logo-light.png" class="logo logo-light" alt="Logo" /></a></div>
             <div class="navbar-collapse offcanvas-nav">
               <div class="offcanvas-header d-lg-none d-xl-none">
                 <a href="index.html"><img src="img/logo-light.png" srcset="img/logo-light.png" alt="Logo" /></a>
                 <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close"></button>
               </div>
               <ul class="navbar-nav me-7">
-                <li class="nav-item"><a class="nav-link" href="#our-client">Our Clients</a>
-                <li class="nav-item"><a class="nav-link" href="#who-we-are">Who We Are</a>
-                <li class="nav-item"><a class="nav-link" href="#what-we-do">What We Do</a>
+                <li class="nav-item"><a class="nav-link scroll" href="#our-client">Our Clients</a>
+                <li class="nav-item"><a class="nav-link scroll" href="#who-we-are">Who We Are</a>
+                <li class="nav-item"><a class="nav-link scroll" href="#what-we-do">What We Do</a>
                 </li>
               </ul>
               <!-- /.navbar-nav -->
@@ -56,9 +56,24 @@
                 </div>
                 <!-- /column -->
                 <div class="col-lg-5 offset-lg-1 mb-n18" data-cues="slideInDown">
-                  <div class="position-relative light-gallery-wrapper">
-                    <figure class="rounded shadow-lg"><img src="img/photos/heroImg.png" srcset="img/photos/about13@2x.jpg 2x" alt=""></figure>
-                  </div>
+                  <div class="basic-slider owl-carousel dots-over shadow-lg owl-loaded owl-drag" data-nav="true" data-margin="5">
+                    <div class="owl-stage-outer owl-height" style="height: 442.391px;">
+                      <div class="owl-stage" style="transform: translate3d(-1402px, 0px, 0px); transition: all 0.25s ease 0s; width: 3273px;">
+                        <div class="owl-item cloned">
+                          <div class="item">
+                            <img src="img/photos/heroImg.png"  class="rounded" alt="backgroun-image">
+                          </div>
+                        </div>
+                        <div class="owl-item cloned">
+                          <div class="item">
+                            <img src="img/photos/heroImg1.png"  class="rounded" alt="backgroun-image">
+                          </div>
+                        </div>
+                        <div class="owl-item">
+                          <div class="item">
+                            <img src="img/photos/heroImg2.png"  class="rounded" alt="backgroun-image">
+                          </div>
+                        </div>
                   <!-- /div -->
                 </div>
                 <!-- /column -->
@@ -75,27 +90,43 @@
         <div class="px-lg-5">
           <div class="row gx-0 gx-md-8 gx-xl-12 gy-8 align-items-center">
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/c1.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/clientlogo.png" class="clients-logo" alt="clients-logo" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/c2.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/clientlogo1.png" class="clients-logo" alt="clients-logo" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/c3.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/clientlogo3.png" class="clients-logo" alt="clients-logo" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/c4.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/clientlogo4.png" class="clients-logo" alt="clients-logo" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/c5.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/clientlogo5.png" class="clients-logo" alt="clients-logo" /></figure>
             </div>
             <!--/column -->
             <div class="col-4 col-md-2">
-              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/c6.png" alt="" /></figure>
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/clientlogo6.png" class="clients-logo" alt="clients-logo" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/clientlogo7.png" class="clients-logo" alt="clients-logo" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/clientlogo8.png" class="clients-logo" alt="clients-logo" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/clientlogo9.png" class="clients-logo" alt="clients-logo" /></figure>
+            </div>
+            <!--/column -->
+            <div class="col-4 col-md-2">
+              <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="img/brands/clientlogo10.png" class="clients-logo" alt="clients-logo" /></figure>
             </div>
             <!--/column -->
           </div>
@@ -107,10 +138,10 @@
 
     <section class="wrapper bg-light">
       <div class="container">
-        <div class="row">
+        <div class="row gx-md-8 gy-16" id="who-we-are">
           <div class="col-lg-8 col-xl-7 col-xxl-6">
-            <h2 id="who-we-are" class="fs-16 text-uppercase text-line text-primary mb-3">Who We Are</h2>
-            <h3 class="display-4 mb-9">A bunch of musketeers who got together in these testing times to create India's first global trading organization.</h3>
+            <h2 class="fs-16 text-uppercase text-line text-primary mb-3">Who We Are</h2>
+            <h3 class="display-4 mb-9">An Indian Commodity Trading House, committed towards ensuring customer satisfaction.</h3>
           </div>
           <!-- /column -->
         </div>
@@ -118,26 +149,26 @@
         <div class="row gx-md-8 gy-8">
           <div class="col-md-6 col-lg-3">
             <div class="icon btn btn-block btn-lg btn-soft-primary disabled mb-6"> <i class="uil uil-phone-volume"></i> </div>
-            <h4>Best Rate</h4>
-            <p class="mb-3">We are well connected in the trading ecosystem globally and always focus on providing the best pricing in the industry.</p>
+            <h4>Best Solutions</h4>
+            <p class="mb-3">We are well connected in the trading ecosystem globally and always focus on providing the best solutions to our partners.</p>
           </div>
           <!--/column -->
           <div class="col-md-6 col-lg-3">
             <div class="icon btn btn-block btn-lg btn-soft-primary disabled mb-6"> <i class="uil uil-shield-exclamation"></i> </div>
             <h4>Experienced Team</h4>
-            <p class="mb-3">With more than a century of experience behind us, we strive to provide the best industry expertize to our clients.</p>
+            <p class="mb-3">With more than a century of experience behind us, we strive to provide the best industry practices to our partners.</p>
           </div>
           <!--/column -->
           <div class="col-md-6 col-lg-3">
             <div class="icon btn btn-block btn-lg btn-soft-primary disabled mb-6"> <i class="uil uil-laptop-cloud"></i> </div>
             <h4>No Counter-Party Risk</h4>
-            <p class="mb-3">All of our trades are either under the cash & carry model or are backed by secure credit instruments like Usance L/C etc.</p>
+            <p class="mb-3">All of our trades are either under the Cash & Carry model or are backed by secure credit instruments.</p>
           </div>
           <!--/column -->
           <div class="col-md-6 col-lg-3">
             <div class="icon btn btn-block btn-lg btn-soft-primary disabled mb-6"> <i class="uil uil-chart-line"></i> </div>
             <h4>100% Hedged</h4>
-            <p class="mb-3">All of our physical trades & cargos are 100% hedged. We don't expose our clients to price risk & market volatility.</p>
+            <p class="mb-3">All of our cargos are 100% hedged. We don't expose our clients to price risk & market volatility.</p>
           </div>
           <!--/column -->
         </div>
@@ -146,7 +177,7 @@
       <!-- /.container -->
     </section>
 
-    <section class="wrapper bg-light wrapper-border">
+    <section class="wrapper bg-light wrapper-border" id="what-we-do">
       <div class="container py-14 py-md-16">
         <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div class="col-lg-7 order-lg-2">
@@ -200,7 +231,7 @@
           </div>
           <!--/column -->
           <div class="col-lg-5">
-            <h2 id="what-we-do" class="fs-16 text-uppercase text-line text-primary mb-3">What We Do?</h2>
+            <h2 class="fs-16 text-uppercase text-line text-primary mb-3">What We Do</h2>
             <h3 class="display-4 mb-5">Connecting our clients to the global commodity economy.</h3>
             <p>With in-depth knowledge of the market and the products across commodities, we are playing on our strength to trade in the following products & services:</p>
           </div>
@@ -260,11 +291,11 @@
             <!--/.row -->
             <p>© 2021 Asier Metals Private Limited. All rights reserved.</p>
             <nav class="nav social justify-content-center">
-              <a href="#"><i class="uil uil-twitter"></i></a>
-              <a href="#"><i class="uil uil-facebook-f"></i></a>
-              <a href="#"><i class="uil uil-dribbble"></i></a>
-              <a href="#"><i class="uil uil-instagram"></i></a>
-              <a href="#"><i class="uil uil-youtube"></i></a>
+              <!-- <a href="#"><i class="uil uil-twitter"></i></a> -->
+              <!-- <a href="#"><i class="uil uil-facebook-f"></i></a> -->
+              <a data-bs-toggle="modal" data-bs-target="#modal-03"><i class="uil uil-fast-mail-alt"></i></a>
+              <!-- <a href="#"><i class="uil uil-instagram"></i></a> -->
+              <a href="https://www.linkedin.com/company/asier-metals-private-limited/"><i class="uil uil-linkedin"></i></a>
             </nav>
             <!-- /.social -->
           </div>
