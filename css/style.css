@@ -31212,7 +31212,10 @@ fieldset:disabled .btn.btn-circle {
 }
 
 .navbar .logo{
-  width: 40%
+  width: 50%
+}
+.logo-sidenav{
+  width: 70%
 }
 
 .navbar.transparent .logo-dark {
