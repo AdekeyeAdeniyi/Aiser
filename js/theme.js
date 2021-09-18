@@ -671,4 +671,12 @@
    * Init theme core
    */
   theme.init();
+  $(document).ready(function(){
+    $('.owl-nav').addClass('d-none');
+    $('.owl-dots').addClass('d-none');
+    function blink(){
+     $( ".owl-next" ).click();
+    }
+    setInterval(blink,3000);
+    });
 })(jQuery);

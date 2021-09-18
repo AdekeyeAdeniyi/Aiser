@@ -31212,10 +31212,10 @@ fieldset:disabled .btn.btn-circle {
 }
 
 .navbar .logo{
-  width: 50%
+  width: 40%
 }
 .logo-sidenav{
-  width: 70%
+  width: 50%
 }
 
 .navbar.transparent .logo-dark {
@@ -32554,6 +32554,7 @@ button.hamburger.animate.active:after {
   font-size: 1.2rem;
   width: 1.2rem;
   height: 1.2rem;
+  color: red;
 }
 
 .btn-close:hover {
